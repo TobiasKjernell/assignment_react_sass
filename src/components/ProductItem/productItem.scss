@@ -1,0 +1,46 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+
+.product {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid $color-border;
+    padding: 0.5rem;
+    border-radius: 10px;
+
+    &__item-group {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    &__item-text {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+
+        &.packed {
+            text-decoration: line-through;
+        }
+    }
+
+    input[type="checkbox"] {
+        height: 2rem;
+        width: 2rem;
+        accent-color: $color-foreground;
+        margin-right: 8px;
+    }
+
+    &__close-btn {
+        @include defaultColors();
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+
+        &:hover {
+            background-color: lighten($color-foreground, 20%);
+        }
+    }
+}

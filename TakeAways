@@ -1,0 +1,11 @@
+Sass can be very scale-able if you spend some time with it, learning the
+tricks & hidden usecases. 
+
+Small app made like this, i don't know if it's necessary to install sass. 
+Still feels like normal css.modules can get you far with file structure and
+to decouple classes. 
+
+Not a fan of Tailwind at all but it's fast and it seems like alot of people
+using it. Sass might be old but some companies still seems to use it. 
+
+Looking forward to MUI because most of the companies i've been looking into using it.

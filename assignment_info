@@ -1,0 +1,46 @@
+This assignment will test your knowledge of TypeScript, CSS Libraries and core React fundamentals.
+
+Your task is to create TWO small React apps. Both must be written in TypeScript. Each application is required to use a different approach to styling.
+
+The first App must store data in local storage. The content and design is completely up to you. You must choose one of Styled Components, MUI or Sass for the styling.
+
+The second must fetch and display data from an external API. You must choose another of Styled Components, MUI or Sass for the styling.
+
+Both Apps MUST use a different approach for styling. For example if your first app uses Styled Components the second CANNOT use Styled Components.
+
+The apps can be as large as you like, you can chose to  use either  Next  or React,  and all that is a required is a small, single page Application. 
+
+Tailwind is not allowed to be used  in either app.
+
+Godkänt:
+
+App 1:
+Written in TypeScript
+Utilizes the browser feature local storage to set and retrieve information
+Uses one of Styled Components, MUI or Sass for styling
+Must have a responsive design
+
+App 2
+Written in TypeScript
+Connect to an external API
+Display data from the API
+User fired event triggers an API call
+Uses one of Styled Components, MUI or Sass for styling
+Uses a different CSS library from App1
+Must have a responsive design
+
+Väl Godkänt
+Consistently organized files and naming conventions
+Practical application of useState and useEffect
+Demonstrate a good knowledge of local storage
+Each App uses a different approach to styling
+Shows an application of the features of the styling library:
+ if Sass I would expect to see  variables and mixins
+if Styled Components I would expect to see props
+if MUI I would expect to see props and the SX prop
+
+Submission:
+
+Please submit BOTH assignments with:
+Link to your github repo, invite me as a collaborator
+Link to a live version of the site, such as Vercel

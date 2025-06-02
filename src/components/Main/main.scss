@@ -1,0 +1,37 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: $color-background;
+    align-items: center;
+
+    &__content {
+        border: 1px solid $color-border;
+        border-radius: 10px;
+        color: $color-white;
+
+        max: {
+            width: 1200px;
+            height: 500px;
+        }
+
+        padding: $space-s;
+        display: flex;
+
+        flex: {
+            direction: column;
+            wrap: wrap;
+        }
+
+        overflow: auto;
+        gap: 10px;
+        margin: $space-base;
+
+        @include responsive-mobile {
+            max-height: 100%;
+        }
+    }
+}

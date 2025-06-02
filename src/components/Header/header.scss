@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+.header {
+    background-color: $color-background;
+    color: $color-white;
+    padding: 2rem;
+    border-bottom: 1px solid $color-border;
+  
+    &__title {
+        text-align: center;
+    }
+
+}

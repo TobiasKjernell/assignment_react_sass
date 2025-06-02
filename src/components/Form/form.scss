@@ -1,0 +1,37 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.form {
+    display: flex;
+    margin: $space-s 0;
+
+    input {
+        @include defaultColors();
+        width: 150px;
+        height: 30px;
+        margin: 0 $space-s;
+        color: $color-white;
+        text-align: center;
+        text-transform: capitalize;
+
+        &::placeholder {
+            color: $color-white;
+            text-align: center;
+        }
+    }
+
+    select {
+        @include defaultColors();
+        width: 50px;
+        height: 30px;
+    }
+
+    &__btn {
+        @include defaultColors();
+        width: 80px;
+
+        &:hover {
+            background-color: lighten($color-foreground, 10);
+        }
+    }
+}

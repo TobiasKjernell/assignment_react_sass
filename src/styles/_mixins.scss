@@ -1,0 +1,12 @@
+@mixin defaultColors {
+    background-color: $color-foreground;
+    border: 2px solid $color-darker;
+    color: $color-white;
+    font-size: 1.2rem;
+}
+
+@mixin responsive-mobile {
+    @media screen and (max-width: $breakpoint-mobile) {
+        @content;
+    }
+}
